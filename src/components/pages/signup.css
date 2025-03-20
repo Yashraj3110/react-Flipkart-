@@ -1,0 +1,280 @@
+.form-container {
+    position: relative;
+    left: 10vw;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    padding: 20px;
+    margin: 8%;
+}
+
+@media (min-width: 2417px) {
+    .form-container {
+        left: 8dvw;
+    }
+}
+
+@media (min-width: 2510px) {
+    .form-container {
+        left: 7dvw;
+    }
+}
+
+.sign-up {
+    position: absolute;
+    top: 0;
+    left: -11vw;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in {
+    position: absolute;
+    top: 0;
+    left: -12vw;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+@media (min-width: 1638px) {
+    .sign-up {
+        left: -11vw;
+    }
+}
+
+@media (min-width: 1735px) {
+    .sign-up {
+        left: -12vw;
+    }
+}
+
+@media (min-width: 1865px) {
+    .sign-up {
+        left: -13vw;
+    }
+}
+
+@media (min-width: 2062px) {
+    .sign-up {
+        left: -14vw;
+    }
+}
+
+@media (min-width: 2323px) {
+    .sign-up {
+        left: -15vw;
+    }
+}
+
+@media (min-width: 2650px) {
+    .sign-up {
+        left: -16vw;
+    }
+}
+
+@media (min-width: 1961px) {
+    .sign-in {
+        left: -14vw;
+    }
+}
+
+@media (min-width: 2431px) {
+    .sign-in {
+        left: -15.5vw;
+    }
+}
+
+@media (min-width: 2787px) {
+    .sign-in {
+        left: -16.5vw;
+    }
+}
+
+.sign-up {
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.sign-in {
+    width: 50%;
+    z-index: 2;
+}
+
+.form {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+
+}
+
+h4 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.form input {
+    background: #e7e4e4;
+    padding: 6px 2px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+#button1 {
+    color: #fff;
+    background: #fb641b;
+    font-size: 12.5px;
+    font-weight: bold;
+    padding: 12px 55px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #526881;
+    outline: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    width: 22vw;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+#sign-in,
+#sign-up {
+    background: linear-gradient(to right, rgb(86, 81, 131), #42745d);
+    border: 2px solid #fff;
+    width: 12vw;
+    border-radius: 200px;
+    height: 41px;
+    padding: 6px 0px;
+    color: #fff;
+    margin: 20px;
+    outline: none;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+
+}
+
+.form-container.right-panel-active .sign-up {
+    transform: translateX(100%);
+}
+
+.form-container.right-panel-active .sign-up {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.form-container.right-panel-active .overlay-container {
+    transform: translateX(-100%);
+}
+
+.overlay {
+    position: relative;
+    color: #e4e4e4;
+    background: #380a15;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    background: linear-gradient(to right, #2a1558, #1240be);
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.form-container.right-panel-active .overlay {
+    transform: translateX(50%);
+
+}
+
+.overlay-left,
+.overlay-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.form-container.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+
+.form-container.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}
+
+#head1 {
+    position: relative;
+    bottom: 51px;
+}
+
+#head2 {
+    position: relative;
+    bottom: 51px;
+}
+
+.form-floating {
+    position: relative;
+    bottom: 25px;
+    width: 21dvw;
+   
+}
+
+.form-text {
+    width: 17vw;
+    position: relative;
+    top: 1rem;
+}
+
+.info11 {
+    width: 22rem;
+    padding-bottom: 5rem;
+}
+
+.info12 {
+    position: relative;
+    top: 33px;
+    font-size: 15px;
+}

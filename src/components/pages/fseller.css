@@ -1,0 +1,379 @@
+.FSheader {
+    background-color: rgb(255, 255, 255);
+    height: 3rem;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+#pt111 {
+    font-size: 14.5px;
+    color: rgb(119 119 119);
+    padding-top: 12px;
+    padding-left: 47px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.Bodys {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+
+}
+
+#btn2 {
+    border-radius: .5rem;
+}
+
+#btn2 span {
+    font-family: Arial, sans-serif;
+    color: rgb(77, 75, 75);
+}
+
+#btn2:hover {
+    border-radius: .5rem;
+    color: #000000;
+
+}
+
+.aqQN501 {
+    width: 107px;
+    height: 32px;
+
+}
+
+.logo11 {
+    padding-left: 0;
+}
+
+.aqQN50111 {
+    width: 100%;
+}
+
+/* @media (m-width: 1369px) {
+    .logo11 {
+        padding-left: 0;
+        width: 34vw;
+    }
+}  */
+
+#navpw {
+    padding: 0 15px;
+}
+
+.navtt {
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 8px;
+    color: rgb(133, 133, 133);
+}
+
+.navbar-nav .nav-link:hover .navtt .fa-angle-down {
+    transform: rotate(180deg);
+    color: rgb(133, 133, 133);
+    padding-left: -12px;
+    padding-right: -12px;
+}
+
+.nav-item.dropdown:hover .navtt .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+.navtt i {
+    font-size: 17px;
+    color: rgb(113, 113, 113);
+    position: relative;
+    left: 5px;
+}
+
+.navbar-nav li {
+    align-items: center;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0px 1px 0px 9px;
+}
+
+#navbarTogglerDemo02 {
+    justify-content: space-between;
+}
+
+.sbtn1 {
+
+    border: none;
+
+    width: 80px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: rgb(255, 255, 254);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.sbtn2 {
+    border: none;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: rgb(255, 205, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.sbt {
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(0 0 0);
+    padding-top: 10px;
+}
+
+#li .dropdown-item1 {
+    font-size: 15px;
+    padding: 7px 9px;
+    color: #383838;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#breadcrumb {
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 0px;
+}
+
+.banner {
+    background: rgb(255, 255, 255);
+    padding: 0px 30px;
+}
+
+.bann {
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.bancon {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.bstext {
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    left: 0px;
+    top: 25%;
+    max-width: 660px;
+}
+
+.center {
+    background: rgb(255, 254, 254);
+    box-shadow: rgba(38, 123, 252, 0.12) 0px 0px 21px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1280px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    content: var(--bs-breadcrumb-divider, ">");
+    font-weight: 700;
+
+}
+
+#bannerover {
+    display: flex;
+    padding: 12px 30px;
+    justify-content: space-between;
+}
+
+#bannerover li {
+    background-color: white;
+    text-align: center;
+    height: 100%;
+}
+
+#bannerover li p {
+    width: 193px;
+    margin-bottom: 3px;
+    padding-top: 12px;
+
+}
+
+.bannerdivide {
+    border-left: 2px solid rgb(210, 232, 245);
+    height: 3rem;
+    margin: 24px auto;
+}
+
+.sellercontainer {
+    position: relative;
+    bottom: 8rem;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(235, 235, 236);
+    margin-top: 20px;
+    padding-bottom: 57px;
+}
+
+.sellerdiv {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.scol1 {
+    grid-template-columns: 1fr minmax(0px, 1fr);
+    gap: 34px;
+    align-items: flex-start;
+    align-self: flex-end;
+    padding-top: 40px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scol1 h2 {
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px;
+    display: flex;
+    flex-flow: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 0px 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.scol1 h2 #ss1 {
+    padding-right: 10px;
+    color: rgb(2, 124, 213);
+}
+
+.scol2 {
+    padding-top: 2rem;
+}
+
+.scol2 .carousel {
+    width: 79vw;
+    height: 15rem;
+    background: rgb(245, 251, 255);
+    ;
+    box-shadow: rgba(38, 123, 252, 0.12)0px 0px 21px;
+    padding: 45px 80px;
+    border-radius: 16px;
+}
+
+.scol2 .carousel-inner {
+    border-radius: 16px;
+}
+
+.scol2 .carousel .fa {
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.scol2 .carousel-control-prev {
+    background: #ffffff;
+    height: 55px;
+    width: 55px;
+    border-radius: 4rem;
+    border: 1px solid #dadada;
+    position: absolute;
+    top: 90px;
+    left: -24px;
+}
+
+.scol2 .carousel-control-next {
+    background: #ffffff;
+    height: 55px;
+    width: 55px;
+    border-radius: 4rem;
+    border: 1px solid #dadada;
+    position: absolute;
+    top: 90px;
+    right: -25px;
+}
+
+.scol2 .carousel-indicators {
+
+    position: absolute;
+    bottom: -55px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #8b8b8b;
+    height: 5px;
+    width: 11px;
+}
+
+.scol2 .carousel-inner .carousel-item .sprofile .simage {
+    width: 149px;
+    height: 148px;
+    border-radius: 5rem;
+    border: 2px solid #ffffff;
+}
+
+.scol2 .carousel-inner .spcontent {
+    display: flex;
+    gap: 50px;
+}
+
+.scol2 .carousel-inner .spcred {
+    display: flex;
+    flex-direction: column;
+}
+
+.scol2 .carousel-inner .spcred11 {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(53, 53, 53);
+    padding-top: 27px;
+    margin-bottom: -41px;
+}
+
+.scol2 .carousel-inner .spcred12 {
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+    width: 100%;
+    white-space: break-spaces;
+    text-align: left;
+    line-height: 30px;
+
+}
